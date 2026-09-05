@@ -11,7 +11,7 @@ You can run this project locally using either **npm** or **Bun** for a faster de
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/The-Tourist-170/Borrower-Copilot
 cd borrower-copilot
 
 ```
