@@ -44,7 +44,6 @@ function App() {
       {!cardData ? (
         <>
           <header className="mb-8 text-center max-w-xl">
-            <p className="text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Lokta Challenge</p>
             <h1 className="text-4xl font-serif font-medium mb-3">Borrower Copilot</h1>
             <p className="text-gray-600">Find out your true eligibility and get a fair rate before you walk into a branch.</p>
           </header>
