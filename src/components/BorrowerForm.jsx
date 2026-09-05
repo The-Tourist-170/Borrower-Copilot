@@ -66,6 +66,19 @@ export default function BorrowerForm({ onComplete }) {
               </select>
             </div>
 
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Loan Purpose</label>
+              <input 
+                type="text" 
+                name="loanPurpose" 
+                required 
+                value={formData.loanPurpose} 
+                onChange={handleChange} 
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500" 
+                placeholder="e.g. Wedding, Business Expansion, Medical" 
+              />
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Loan Type</label>
